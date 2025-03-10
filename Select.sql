@@ -14,7 +14,7 @@ SELECT artists_name FROM Artists
 WHERE artists_name NOT LIKE '% %';
 -- 5
 SELECT tracks_name FROM Tracks
-WHERE tracks_name ILIKE '%my%' OR tracks_name ILIKE '%мой%';
+WHERE tracks_name ~* '\mmy\M' OR tracks_name ~* '\mмой\M';
 /* Задание 3 */
 -- 1
 SELECT Styleid, COUNT(*) AS executor_count FROM StyleArtists 

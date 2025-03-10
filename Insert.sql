@@ -79,7 +79,11 @@ INSERT INTO Tracks(tracks_name, tracks_duration, AlbumID) VALUES
 ('Травой', 180, 6),
 ('Почему я', 201, 6),
 ('Мой пацан', 194, 6),
-('Полный п****ц', 194, 6);
+('Полный п****ц', 194, 6),
+('Mythology', 156, 2),
+('Homyko', 175, 2),
+('Хороший мой', 171, 2),
+('In my mind', 160, 2);
 
 -- ArtistsAlbums
 INSERT INTO ArtistsAlbums(ArtistID, AlbumID) VALUES
